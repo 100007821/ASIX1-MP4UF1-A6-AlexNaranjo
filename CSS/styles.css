@@ -60,3 +60,20 @@ img {
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid #333; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333; 
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
