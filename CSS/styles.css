@@ -62,9 +62,10 @@ img {
 }
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
     margin: 20px auto;
-    border: 2px solid #333; 
+    border: 2px solid #333333; 
+    border-radius: 10px;
 }
 
 th, td {
@@ -76,4 +77,8 @@ th, td {
 th {
     background-color: #333;
     color: white;
+    
+}
+.gris{
+    background-color: rgb(213, 213, 213);
 }
